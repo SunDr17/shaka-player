@@ -61,7 +61,7 @@
   },
   "license": "Apache-2.0",
   "scripts": {
-    "postinstall": "python build/all.py --force"
+    "prepublishOnly": "python build/all.py --force"
   },
   "dependencies": {
     "eme-encryption-scheme-polyfill": "^2.0.0"
